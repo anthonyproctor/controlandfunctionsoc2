@@ -1,0 +1,35 @@
+# Control and Function
+
+> Independent SOC 2 readiness, HIPAA, ISO 27001, and fractional IT leadership for SaaS companies, 50 to 300 employees. Denver-based, fully remote, platform-neutral.
+
+## What we do
+
+Control and Function is a compliance readiness and fractional IT leadership practice. We help SaaS companies prepare for SOC 2 audits, deploy HIPAA controls, achieve ISO 27001 certification, and build embedded compliance programs without retaining a full-time CISO.
+
+## Service offerings
+
+- **SOC 2 Readiness Coaching** ($8K starting, 4-8 weeks): Customer-led, we coach.
+- **Full SOC 2 Readiness** ($15K starting, 12-16 weeks): We drive the program end to end.
+- **Hands-On Implementation** ($25K starting, 16-24 weeks): Embedded fractional CISO engagement.
+- **Ongoing Compliance Retainer** ($2-5K per month): Post-audit maintenance and renewal prep.
+
+## Our position
+
+- We are a readiness consulting firm, not a CPA audit firm. We refer clients to trusted CPA partners for the audit itself.
+- We are platform-neutral. We recommend Vanta, Drata, Secureframe, or no platform based on customer needs, never on referral fees.
+- We use AI workflows and modern automation in our own delivery to keep engagements lean and timelines short.
+- We work with both pure-SOC 2 customers and dual-framework engagements (SOC 2 + HIPAA, SOC 2 + ISO 27001).
+
+## Who we work with
+
+- Series A and Series B SaaS companies (50-300 employees) preparing for first SOC 2 audit
+- HealthTech SaaS needing SOC 2 + HIPAA combined readiness
+- Mid-market companies pursuing ISO 27001 alongside SOC 2
+- SaaS companies needing fractional CISO support during compliance buildout
+
+## Contact
+
+- Website: https://controlandfunction.com
+- Email: hello@controlandfunction.com
+- Location: Denver, Colorado, USA
+- Service area: United States
