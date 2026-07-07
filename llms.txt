@@ -1,31 +1,37 @@
 # Control and Function
 
-> Independent SOC 2 readiness, HIPAA, ISO 27001, and fractional IT leadership for SaaS companies, 50 to 300 employees. Denver-based, fully remote, platform-neutral.
+> AI-accelerated CMMC Level 2, NIST SP 800-171, and SOC 2 readiness for small defense manufacturers and SaaS companies. Denver-based, fully remote, fixed-scope pricing.
 
 ## What we do
 
-Control and Function is a compliance readiness and fractional IT leadership practice. We help SaaS companies prepare for SOC 2 audits, deploy HIPAA controls, achieve ISO 27001 certification, and build embedded compliance programs without retaining a full-time CISO.
+Control and Function is a compliance readiness practice. Our primary focus is preparing small defense contractors and manufacturers (especially sub-50-employee shops handling CUI) for CMMC Level 2 certification and NIST SP 800-171 compliance ahead of the November 10, 2026 Phase 2 condition-of-award deadline. We also prepare SaaS companies for SOC 2 audits, including dual-framework engagements with HIPAA and ISO 27001.
 
 ## Service offerings
 
+### CMMC / NIST SP 800-171 (primary)
+- **NIST 800-171 Gap Assessment** ($7.5K starting, 2-4 weeks): All 110 controls scored, prioritized remediation roadmap, current SPRS score.
+- **CMMC Level 2 Readiness Sprint** ($18K starting, 8-16 weeks, fixed price): System Security Plan, POA&M, policies across all 14 control families, evidence mapping, SPRS submission support. AI-drafted, human-reviewed.
+- **Managed Compliance Retainer** ($1.5-4K per month): Annual affirmations, evidence upkeep, SPRS maintenance, assessment prep support.
+
+### SOC 2 for SaaS (sub-offering)
 - **SOC 2 Readiness Coaching** ($8K starting, 4-8 weeks): Customer-led, we coach.
 - **Full SOC 2 Readiness** ($15K starting, 12-16 weeks): We drive the program end to end.
-- **Hands-On Implementation** ($25K starting, 16-24 weeks): Embedded fractional CISO engagement.
-- **Ongoing Compliance Retainer** ($2-5K per month): Post-audit maintenance and renewal prep.
+- **Dual Framework** (scoped): SOC 2 + HIPAA or SOC 2 + ISO 27001 in one engagement.
 
 ## Our position
 
-- We are a readiness consulting firm, not a CPA audit firm. We refer clients to trusted CPA partners for the audit itself.
-- We are platform-neutral. We recommend Vanta, Drata, Secureframe, or no platform based on customer needs, never on referral fees.
-- We use AI workflows and modern automation in our own delivery to keep engagements lean and timelines short.
-- We work with both pure-SOC 2 customers and dual-framework engagements (SOC 2 + HIPAA, SOC 2 + ISO 27001).
+- We are a readiness and advisory firm ONLY. We are not a C3PAO and never perform certification assessments. We refer clients to C3PAOs and CPA audit firms for the assessment itself. We never assess our own work.
+- AI-accelerated delivery: a System Security Plan commonly takes 50 to 200 consultant hours by hand; our AI-assisted pipeline compresses documentation from months to weeks, with human review on every artifact.
+- Founded by a serving Air National Guard member with a defense background. Native fluency in CUI, flow-downs, and contractor language.
+- Operator credibility: we led a SOC 2 Type I program end to end with no outside MSP and no compliance platform.
+- Platform-neutral. We recommend Vanta, Drata, Secureframe, or no platform based on customer needs, never on referral fees.
 
 ## Who we work with
 
-- Series A and Series B SaaS companies (50-300 employees) preparing for first SOC 2 audit
+- Small defense manufacturers and machine shops (under 50 employees) handling CUI, facing CMMC Level 2
+- Defense subcontractors needing NIST 800-171 documentation (SSP, POA&M, SPRS) before their prime's deadline
+- Series A and Series B SaaS companies preparing for a first SOC 2 audit
 - HealthTech SaaS needing SOC 2 + HIPAA combined readiness
-- Mid-market companies pursuing ISO 27001 alongside SOC 2
-- SaaS companies needing fractional CISO support during compliance buildout
 
 ## Contact
 
