@@ -29,6 +29,15 @@ Weeks 1 to 3: scope, system description, Trust Services Criteria gap assessment,
 
 SaaS and education technology companies, typically without a dedicated compliance department, facing buyer security reviews, university or enterprise procurement questionnaires, or a contractual SOC 2 commitment.
 
+## Client portal
+
+Every engagement runs through a live client portal: control-by-control readiness across the Trust Services Criteria, a phase timeline with real dates, and a dated engagement log. The portal tracks evidence pointers only, never raw client artifacts, which remain in the client's environment.
+
+## Resources
+
+- Ed-tech and university procurement explainer (SOC 2 vs HECVAT vs FERPA, and the order of operations): https://controlandfunction.com/edtech.html
+- Privacy policy: https://controlandfunction.com/privacy.html
+
 ## Contact
 
 - Email: hello@controlandfunction.com

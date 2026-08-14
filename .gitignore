@@ -1,13 +1,1 @@
-# macOS
-.DS_Store
-._*
-
-# Editor
-.vscode/
-.idea/
-*.swp
-*~
-
-# Local-only
-notes.md
-draft-*.md
+node_modules/
