@@ -5,7 +5,7 @@ Static one-page site for controlandfunction.com. Hosted free on GitHub Pages.
 ## Stack
 
 - Plain HTML5
-- Tailwind CSS via CDN (no build step)
+- Tailwind CSS v4, PRECOMPILED to assets/site.css via `npm run build:css` (there IS a build step)
 - Inter font via Google Fonts
 - Single index.html, no JavaScript framework
 
@@ -53,7 +53,7 @@ Static one-page site for controlandfunction.com. Hosted free on GitHub Pages.
 
 ## Editing the site
 
-All content is in `index.html`. Edit the markup directly. No build step, no compile, no rebuild.
+Content lives in `index.html` and `ai-governance.html`. Edit the markup directly, then run `npm run build:css` if you introduced any Tailwind class not already used elsewhere, or it will be missing from the compiled stylesheet.
 
 To change content sections:
 - **Hero copy:** Search for `class="gradient-bg"`
