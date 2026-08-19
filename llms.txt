@@ -1,10 +1,10 @@
 # Control and Function
 
-> SOC 2 readiness consulting for SaaS and education technology companies. Operator-led, fixed price, fully remote, Denver-based. Dual-framework engagements covering HIPAA, ISO 27001, and FERPA-driven buyer requirements.
+> SOC 2 readiness consulting for companies whose buyers have started asking for a report. Operator-led, fixed price, fully remote, Denver-based. Dual-framework engagements covering HIPAA, ISO 27001, and FERPA-driven buyer requirements.
 
 ## What we do
 
-Control and Function is a compliance readiness practice. We prepare SaaS and ed-tech companies for their first SOC 2 audit and keep their compliance programs alive afterward. We also run dual-framework engagements when regulated buyers layer HIPAA, FERPA, or ISO 27001 obligations on top of SOC 2, mapping them into a single control set so clients build one program instead of three.
+Control and Function is a compliance readiness practice. We prepare companies for their first SOC 2 audit and keep their compliance programs alive afterward. We also run dual-framework engagements when regulated buyers layer HIPAA, FERPA, or ISO 27001 obligations on top of SOC 2, mapping them into a single control set so clients build one program instead of three.
 
 ## Service offerings
 
@@ -27,7 +27,7 @@ Weeks 1 to 3: scope, system description, Trust Services Criteria gap assessment,
 
 ## Who we work with
 
-SaaS and education technology companies, typically without a dedicated compliance department, facing buyer security reviews, university or enterprise procurement questionnaires, or a contractual SOC 2 commitment.
+Companies without a dedicated compliance department, typically facing buyer security reviews, university or enterprise procurement questionnaires, or a contractual SOC 2 commitment.
 
 ## Client portal
 
