@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complementary User Entity Controls (CUECs) Explained</title>
+    <meta name="description" content="Every vendor SOC 2 report lists controls it assumes you operate. They are called CUECs, they are usually never read, and they are why a folder full of vendor reports can still fail an audit.">
+    <link rel="canonical" href="https://controlandfunction.com/cuecs.html">
+    <meta property="og:title" content="Complementary User Entity Controls, and why holding a vendor&rsquo;s SOC 2 is not reviewing it">
+    <meta property="og:description" content="Every vendor SOC 2 report lists controls it assumes you operate. They are called CUECs, they are usually never read, and they are why a folder full of vendor reports can still fail an audit.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://controlandfunction.com/cuecs.html">
+    <meta property="og:image" content="https://controlandfunction.com/assets/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Complementary User Entity Controls (CUECs) Explained">
+    <meta name="twitter:description" content="Every vendor SOC 2 report lists controls it assumes you operate. They are called CUECs, they are usually never read, and they are why a folder full of vendor reports can still fail an audit.">
+    <meta name="twitter:image" content="https://controlandfunction.com/assets/og-image.png">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Complementary User Entity Controls (CUECs)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CUECs are controls that a service organization's SOC 2 report assumes the customer is operating. They are the conditions under which the vendor's opinion means anything. A cloud provider secures the hypervisor and the data center, but it does not configure your security groups, rotate your access keys, or decide who gets production access. Those are yours, and the report says so."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are CUECs located in a SOC 2 report?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They usually appear in the description of the system, often as a table near the end, sometimes in an appendix. They are easy to miss because they sit after the section most readers stop at, which is whether the opinion was clean."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is collecting a vendor's SOC 2 report enough to evidence vendor risk assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Collecting a report evidences that it was obtained. Most vendor risk controls ask whether the vendor was assessed. An auditor will assume you have the report and will instead ask who reviewed it, when, what came out of the review, and how the CUECs were addressed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the carve out method mean for CUECs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A carve out means the subservice organization's controls are explicitly excluded from the opinion. People often read that as the vendor being covered elsewhere, but it is closer to the opposite. The report is silent about them, the CUECs land squarely on the customer, and your own report needs to state how you handle it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if my vendor's SOC 2 period does not match my audit period?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any months of your period not covered by their report are months their opinion says nothing about. The fix is a bridge letter from the vendor covering the gap. Request it before fieldwork rather than during, because it takes vendors weeks and it is not a priority for them."
+      }
+    }
+  ]
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Complementary User Entity Controls, and why holding a vendor's SOC 2 is not reviewing it",
+  "description": "Every vendor SOC 2 report lists controls it assumes you operate. They are called CUECs, they are usually never read, and they are why a folder full of vendor reports can still fail an audit.",
+  "datePublished": "2026-08-26",
+  "author": {
+    "@type": "Organization",
+    "name": "Control and Function LLC"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Control and Function LLC"
+  },
+  "mainEntityOfPage": "https://controlandfunction.com/cuecs.html"
+}
+    </script>
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/site.css">
+    <script data-goatcounter="https://controlandfunction.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }</style>
+</head>
+<body class="text-slate-900 antialiased">
+    <header class="border-b border-slate-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="/" class="font-bold text-lg tracking-tight">Control and Function</a>
+            <nav class="hidden md:flex space-x-8 text-sm text-slate-600">
+                <a href="/#services" class="hover:text-slate-900">Services</a>
+                <a href="/#frameworks" class="hover:text-slate-900">Frameworks</a>
+                <a href="/#faq" class="hover:text-slate-900">FAQ</a>
+                <a href="/#contact" class="hover:text-slate-900">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-6 py-16">
+        <p class="text-sm font-semibold text-blue-900 mb-3 uppercase tracking-wider">Vendor Risk · Subservice Organizations</p>
+        <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">Complementary User Entity Controls, and why holding a vendor&rsquo;s SOC 2 is not reviewing it</h1>
+        <p class="text-sm text-slate-500 mb-10">Control and Function · August 2026</p>
+
+        <div class="space-y-6 text-slate-700 leading-relaxed text-lg">
+            <p>Every SOC 2 report you collect from a vendor contains a section most people never read. It lists the controls that report assumes <strong>you</strong> are operating. Not the vendor. You.</p>
+            <p>They are called Complementary User Entity Controls, CUECs, and they are the reason a filing cabinet full of vendor reports can still fail an audit.</p>
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">What they actually are</h2>
+            <p>A service organization gets audited on the controls it operates. But almost no service is self contained. AWS secures the hypervisor and the physical data center. It does not configure your security groups, rotate your access keys, or decide who on your team gets production access. Those are yours, and AWS says so, in writing, inside the report you downloaded.</p>
+            <p>That list is the CUECs. It is the vendor stating the conditions under which their opinion means anything. Read plainly, a CUEC says: our controls work, provided you are doing these specific things on your end. If you are not, the assurance you think you bought does not extend as far as you think.</p>
+            <p>You will usually find them in the description of the system, often as a table near the end, sometimes in an appendix. They are easy to miss because they sit after the part everyone actually reads, which is whether the opinion was clean.</p>
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">The mistake almost everyone makes</h2>
+            <p>Here is the pattern I see constantly.</p>
+            <p>A company gets asked to evidence vendor risk management. They pull the SOC 2 reports for their major subprocessors, drop them in a folder, link the folder in their compliance platform, and mark the control complete. The platform turns green. Everybody moves on.</p>
+            <p>What that evidences is that the report was <strong>obtained</strong>. The control usually asks whether vendor risk was <strong>assessed</strong>. Those are different words and only one of them was done.</p>
+            <p>Collecting a report proves you can download a PDF. It says nothing about whether you read it, whether the opinion was qualified, whether the period covers yours, or whether the things it assumes about your environment are true.</p>
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">What an auditor actually does with it</h2>
+            <p>They will not ask whether you have the report. They will assume you do.</p>
+            <p>They will ask who reviewed it, when, and what came out of the review. Then, if they are any good, they will ask how you addressed the CUECs.</p>
+            <p>That last question is where it falls apart, because the honest answer is usually that nobody knew there were CUECs. I have watched competent teams, who genuinely run good programs, discover mid fieldwork that their cloud provider has been assuming something about their key management that has never been true.</p>
+            <p>It is not a gotcha. It is in the report. It has always been in the report.</p>
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">How to actually do it</h2>
+            <p>The work is not complicated, it is just tedious, which is why it does not happen.</p>
+            <p>For each subprocessor whose report you rely on, open the report and find the CUEC list. Take each one and do one of three things with it.</p>
+            <p><strong>Map it.</strong> Name the control in your own program that satisfies it. Not a policy that mentions the topic, an actual control with an owner and evidence. If your vendor assumes you review privileged access quarterly, point at your quarterly access review and the record that it ran.</p>
+            <p><strong>Rule it out.</strong> Some CUECs genuinely do not apply, usually because you do not use the feature they cover. Write down why. An auditor will accept &ldquo;not applicable because we do not use their SSO integration&rdquo; far more readily than silence.</p>
+            <p><strong>Flag it.</strong> If a CUEC lands on you and you have nothing behind it, that is a finding you just gave yourself for free, months before an auditor would have handed it to you. That is the best possible outcome of this exercise and the reason to do it early.</p>
+            <p>When you are done you have a table: every CUEC, its source report, its disposition, and the control or the reason. That table is the evidence. It is what turns &ldquo;we have the report&rdquo; into &ldquo;we assessed the vendor,&rdquo; and it takes an afternoon per vendor at most.</p>
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">Two traps worth knowing about</h2>
+            <p><strong>Period alignment.</strong> A SOC 2 Type II covers a specific window. If your audit period runs January through December and your vendor&rsquo;s report covers October through September, there are three months at the end of your period their report says nothing about. The fix is a bridge letter from the vendor covering the gap. Ask for it before fieldwork, not during, because it takes them weeks and it is not a priority for them.</p>
+            <p><strong>Carve out versus inclusive.</strong> Most reports carve the subservice organization out, meaning the vendor&rsquo;s controls are explicitly excluded from the opinion. People read that as the vendor being covered elsewhere. It is closer to the opposite. A carve out means the report is silent about them, the CUECs land squarely on you, and your own report needs to say how you handle it.</p>
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">Why this is worth an afternoon</h2>
+            <p>The gap between holding a vendor&rsquo;s report and having assessed that vendor is not a paperwork distinction. It is the difference between assurance you actually have and assurance you assume you have.</p>
+            <p>A subprocessor&rsquo;s clean opinion is conditional. The conditions are printed in the report. Reading them takes an afternoon, mapping them takes another, and doing it before an auditor asks converts what would be a finding into a table you hand them.</p>
+            <p>Almost nobody does it. That is most of why it is worth doing.</p>
+        </div>
+
+        <div class="mt-14 pt-8 border-t border-slate-200 text-sm text-slate-500 leading-relaxed">
+            <p>Anthony Proctor runs Control and Function, a SOC 2 readiness practice. He ran a SOC 2 Type I program end to end as the sole IT operator at a prior company, where a licensed CPA firm performed the attestation. Control and Function is not an audit firm and does not audit its own preparation work.</p>
+            <p class="mt-4"><a href="/#contact" class="text-blue-900 font-semibold hover:underline">Talk through your vendor set &rarr;</a></p>
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 py-8 mt-16">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+            <div>© 2026 Control and Function LLC · Denver, Colorado · Not an audit firm · Readiness and advisory only</div>
+            <div class="flex gap-6">
+                <a href="/" class="hover:text-white transition">Home</a>
+                <a href="/privacy.html" class="hover:text-white transition">Privacy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

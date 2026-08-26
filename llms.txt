@@ -36,6 +36,7 @@ Every engagement runs through a live client portal: control-by-control readiness
 ## Resources
 
 - Ed-tech and university procurement explainer (SOC 2 vs HECVAT vs FERPA, and the order of operations): https://controlandfunction.com/edtech.html
+- Complementary User Entity Controls explainer (what CUECs are, why collecting a vendor SOC 2 is not assessing it, carve-out vs inclusive, report period gaps and bridge letters): https://controlandfunction.com/cuecs.html
 - Privacy policy: https://controlandfunction.com/privacy.html
 
 ## Contact
