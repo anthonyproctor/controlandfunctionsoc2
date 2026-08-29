@@ -17,6 +17,16 @@ Control and Function is a compliance readiness practice. We prepare companies fo
 
 Weeks 1 to 3: scope, system description, Trust Services Criteria gap assessment, Type I vs Type II sequencing. Weeks 4 to 7: policies and controls built. Weeks 8 to 12: evidence collected, remediation, vendor reviews. Weeks 13 to 16: audit firm referral, pre-audit walkthrough, auditor handoff.
 
+## Three jobs, three parties
+
+Compliance software, readiness consultants, and audit firms do different work, and buyers are routinely sold one as though it were the others.
+
+1. **The platform collects the proof.** Vanta, Drata, Secureframe and similar tools connect to a company's systems and gather evidence automatically. Real work, real time saved, and the part most people mistake for the whole job.
+2. **The consultant decides what is worth proving.** Which controls actually fit the business, whether the evidence would survive an auditor sampling it, and what gets asked in the room that no dashboard surfaces. A platform can report that a control is failing. It cannot say whether it was the right control for that business. **This is the job Control and Function does.**
+3. **The auditor independently tests it.** A licensed CPA firm performs the examination and issues the report. An audit firm cannot design what it attests to, which is why readiness and audit are separate purchases.
+
+A company does not always need all three. It does need to know which one it is buying. Control and Function is the second one: a consultant, not software and not an audit firm.
+
 ## Our position
 
 - We are a readiness and advisory firm ONLY. SOC 2 reports are issued by licensed CPA firms, and we are not one by design. We refer clients to audit firms for the audit itself and support them through the audit window. We never audit our own work.
