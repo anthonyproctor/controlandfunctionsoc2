@@ -51,8 +51,8 @@
 
   panel.innerHTML =
     '<p style="margin:0 0 4px;font-weight:600">Ask a question</p>' +
-    '<p style="margin:0 0 12px;color:#64748b;font-size:13px">Goes straight to Anthony. ' +
-    'Not a bot, and usually answered same day.</p>' +
+    '<p style="margin:0 0 12px;color:#64748b;font-size:13px">Goes to a person, not a bot. ' +
+    'Usually answered the same day.</p>' +
     '<input id="cfq-n" placeholder="Name, optional" style="' + inputCss + '">' +
     '<input id="cfq-e" type="email" placeholder="Email, if you want a reply" style="' + inputCss + '">' +
     '<textarea id="cfq-m" rows="4" placeholder="What are you trying to figure out?" style="' +
@@ -101,7 +101,7 @@
         sent = true;
         panel.innerHTML = '<p style="margin:0;font-weight:600">Sent.</p>' +
           '<p style="margin:8px 0 0;color:#64748b;font-size:13px">' +
-          'That went to Anthony directly. If you left an email you will hear back.</p>';
+          'That came straight to us, not into a queue. If you left an email you will hear back.</p>';
       }).catch(function () {
         send.disabled = false;
         send.textContent = "Send";
