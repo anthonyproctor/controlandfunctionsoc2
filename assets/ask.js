@@ -14,9 +14,10 @@
 (function () {
   "use strict";
 
-  // Shipped OFF. Flip to true once the endpoint is deployed and tested,
-  // so nobody ever sees a send failure while the backend is missing.
-  var ENABLED = false;
+  // Live since 2026-08-29. Endpoint deployed, spam protections tested, and a
+  // message verified landing in the inbox rather than spam. Set to false to
+  // switch the widget off site wide without touching anything else.
+  var ENABLED = true;
   var ENDPOINT = "https://cf-ask-endpoint.vercel.app/api/ask"; // set after deploy
   if (!ENABLED) return;
 
