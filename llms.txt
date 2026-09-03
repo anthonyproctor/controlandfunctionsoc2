@@ -33,7 +33,7 @@ A company does not always need all three. It does need to know which one it is b
 - Operator credibility: we led a SOC 2 Type I program end to end with no outside MSP and no compliance platform, and it passed its audit clean on the first attempt.
 - Platform-neutral: no referral fees from Vanta, Drata, Secureframe, or anyone else. We recommend a platform, or none, based on the client's environment.
 - AI-accelerated delivery with human review on every artifact before it carries our name.
-- Fully remote, no on-site work, no client network access. Fixed scope, fixed price.
+- Fully remote, no on-site work, no standing access to client systems: any access is client issued, task scoped, least privilege, and revoked when the task is done. Fixed scope, fixed price.
 
 ## Who we work with
 
