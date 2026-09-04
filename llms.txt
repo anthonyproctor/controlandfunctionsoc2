@@ -31,7 +31,7 @@ A company does not always need all three. It does need to know which one it is b
 
 - We are a readiness and advisory firm ONLY. SOC 2 reports are issued by licensed CPA firms, and we are not one by design. We refer clients to audit firms for the audit itself and support them through the audit window. We never audit our own work.
 - Operator credibility: we led a SOC 2 Type I program end to end with no outside MSP and no compliance platform, and it passed its audit clean on the first attempt.
-- Platform-neutral: no referral fees from Vanta, Drata, Secureframe, or anyone else. We recommend a platform, or none, based on the client's environment.
+- Platform-neutral advice: we recommend a platform, or none, based on the client's environment. Some platform vendors pay a referral fee when a client we introduce signs; we disclose it in writing before it is earned, it never changes the recommendation, and clients get partner pricing either way. We take no fees of any kind from audit firms.
 - AI-accelerated delivery with human review on every artifact before it carries our name.
 - Fully remote, no on-site work, no standing access to client systems: any access is client issued, task scoped, least privilege, and revoked when the task is done. Fixed scope, fixed price.
 
