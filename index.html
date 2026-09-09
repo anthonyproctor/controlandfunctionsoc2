@@ -375,6 +375,37 @@
                     <li class="flex gap-3"><span class="text-emerald-400 font-bold">✓</span><span>Evidence pointers only, never your raw artifacts: sensitive material stays in your environment</span></li>
                 </ul>
             </div>
+
+            <!-- Reported vs validated, with the real thing shown -->
+            <div class="mt-14 pt-12 border-t border-slate-700">
+                <div class="max-w-3xl">
+                    <h3 class="text-2xl md:text-3xl font-bold tracking-tight mb-4">Reported is not validated.</h3>
+                    <p class="text-slate-300 leading-relaxed mb-4">
+                        Most compliance tooling collapses those two into one green square. <span class="text-white font-semibold">Reported</span> means you told us a control is in place. <span class="text-white font-semibold">Validated</span> means we read the criterion, looked at your actual evidence, and concluded it holds. The gap between them is where audit exceptions live, and closing it is the engagement.
+                    </p>
+                    <p class="text-slate-300 leading-relaxed">
+                        So every criterion in your portal carries the method before anyone touches it: what proves it, how we test it, and the population that would make it a finding. You can see what we intend to do to a control before we do it.
+                    </p>
+                </div>
+
+                <figure class="mt-10">
+                    <img src="assets/portal-validation-method.png"
+                         alt="A criterion in the Control and Function portal: change management, marked Reported and never validated, with an expanded panel showing what proves it, how it gets tested, and the population that would make it a finding."
+                         width="1400" height="460" loading="lazy" decoding="async"
+                         class="rounded-xl shadow-2xl ring-1 ring-slate-700 w-full">
+                    <figcaption class="mt-4 text-sm text-slate-400 leading-relaxed">
+                        One criterion from a sample engagement. Change management is the most commonly failed criterion in SOC 2, because automated test gates prove a change was tested and never that it was authorized. The panel says so before an auditor has to.
+                    </figcaption>
+                </figure>
+
+                <div class="mt-10 flex flex-col sm:flex-row gap-4 sm:items-center">
+                    <a href="https://portal.controlandfunction.com/demo"
+                       class="bg-white text-slate-900 px-6 py-3 rounded-lg font-semibold inline-flex items-center justify-center transition shadow-md hover:shadow-lg hover:bg-slate-100">
+                        See a live example
+                    </a>
+                    <p class="text-sm text-slate-400">No login, no form. Sample data, not a client's.</p>
+                </div>
+            </div>
         </div>
     </section>
 
