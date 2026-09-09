@@ -57,6 +57,19 @@
     '<input id="cfq-e" type="email" placeholder="Email, if you want a reply" style="' + inputCss + '">' +
     '<textarea id="cfq-m" rows="4" placeholder="What are you trying to figure out?" style="' +
       inputCss + ';resize:vertical"></textarea>' +
+    /* Attribution. The only lead whose source was ever captured came from the
+       same question on Calendly, and the answer was an AI assistant. This is
+       the other door into the practice, so it asks too. Optional on purpose:
+       a required field here would cost more answers than it gains. */
+    '<select id="cfq-src" style="' + inputCss + '">' +
+      '<option value="">How did you find us? Optional</option>' +
+      '<option>ChatGPT, Claude, or another AI assistant</option>' +
+      '<option>Google or another search engine</option>' +
+      '<option>A directory or listing</option>' +
+      '<option>LinkedIn</option>' +
+      '<option>Someone referred me</option>' +
+      '<option>Other</option>' +
+    '</select>' +
     /* honeypot: off screen, not display:none, since some bots skip hidden fields */
     '<input id="cfq-w" tabindex="-1" autocomplete="off" aria-hidden="true" ' +
       'style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">' +
@@ -93,6 +106,7 @@
           email: document.getElementById("cfq-e").value,
           message: msg,
           website: document.getElementById("cfq-w").value,   // honeypot
+          source: (document.getElementById("cfq-src") || {}).value || "",
           elapsed: Date.now() - (opened || Date.now()),
           page: location.pathname,
         }),
