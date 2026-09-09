@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC 2 and Bank Vendor Review: What Third Party Risk Actually Asks For</title>
+    <meta name="description" content="Selling into banks or fintechs? A SOC 2 report shortens the review, it does not end it. What the questionnaire, the artifacts and the contract terms actually cover.">
+    <link rel="canonical" href="https://controlandfunction.com/financial-services.html">
+    <meta property="og:title" content="What a Bank Third Party Risk Review Actually Asks For">
+    <meta property="og:description" content="Selling into banks or fintechs? A SOC 2 report shortens the review, it does not end it. What the questionnaire, the artifacts and the contract terms actually cover.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://controlandfunction.com/financial-services.html">
+    <meta property="og:image" content="https://controlandfunction.com/assets/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SOC 2 and Bank Vendor Review: What Third Party Risk Actually Asks For">
+    <meta name="twitter:description" content="Selling into banks or fintechs? A SOC 2 report shortens the review, it does not end it. What the questionnaire, the artifacts and the contract terms actually cover.">
+    <meta name="twitter:image" content="https://controlandfunction.com/assets/og-image.png">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/site.css">
+    <script data-goatcounter="https://controlandfunction.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }</style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does a SOC 2 report satisfy a bank vendor risk review?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, it shortens it. Banking organizations operate under 2023 interagency guidance from the Federal Reserve, FDIC and OCC covering the full life cycle of third party relationships, and their own examiners review how they assessed you. Expect a large questionnaire, requests for your penetration test and continuity plans, contractual negotiation over notification and audit rights, and ongoing annual monitoring in addition to the report."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do financial services buyers require SOC 2 Type II?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They ask for Type II by name more often than buyers in any other sector, because operating effectiveness over a period is what their own examiners expect them to have assessed. A Type I is a legitimate first step and a real checkpoint, but it should be presented as a step toward Type II rather than as the destination."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the SIG questionnaire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Standardized Information Gathering questionnaire, maintained by Shared Assessments, is a large standardized vendor risk questionnaire widely used in financial services. Many institutions use it directly, some use their own workbook, and some use both. The efficient response is one maintained answer set cross referenced to the evidence behind each answer, rather than answering from scratch per deal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are complementary user entity controls and why do banks ask about them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A SOC 2 report lists controls the service organization assumes its customers operate on their own side. A bank reviewing your report will check whether their environment covers the ones you list. Separately, every vendor report you hold lists controls that vendor assumes you operate, and mapping those to your own controls is a specific artifact reviewers ask for and most vendors do not have."
+      }
+    }
+  ]
+}
+    </script>
+</head>
+<body class="text-slate-900 antialiased">
+    <header class="border-b border-slate-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="/" class="font-bold text-lg tracking-tight">Control and Function</a>
+            <nav class="hidden md:flex space-x-8 text-sm text-slate-600">
+                <a href="/#services" class="hover:text-slate-900">Services</a>
+                <a href="/#frameworks" class="hover:text-slate-900">Frameworks</a>
+                <a href="/#faq" class="hover:text-slate-900">FAQ</a>
+                <a href="/#contact" class="hover:text-slate-900">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-6 py-16">
+        <p class="text-sm font-semibold text-blue-900 mb-3 uppercase tracking-wider">Financial Services &middot; Bank and Fintech Buyers</p>
+        <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">What a bank third party risk review actually asks for</h1>
+        <p class="text-sm text-slate-500 mb-10">Control and Function &middot; September 2026</p>
+
+        <div class="space-y-6 text-slate-700 leading-relaxed text-lg">
+            <p>A bank or fintech asks for your SOC 2 report. You send it. Three weeks later a spreadsheet arrives with several hundred questions, a request for your penetration test, your business continuity plan, evidence of your last access review, and a security contact who will get on a call with their risk team. This is normal, it is not a sign anything is wrong, and it is the heaviest vendor diligence in commercial software. Here is what it consists of and what a SOC 2 report does and does not settle.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">Why bank diligence is different</h2>
+            <p>Banks do not assess vendors purely because they want to. In June 2023 the Federal Reserve, the FDIC and the OCC issued joint interagency guidance on third party relationships, replacing three separate agency positions with one. It sets expectations across the whole life cycle of a vendor relationship: planning, due diligence and selection, contract negotiation, ongoing monitoring, and termination.</p>
+            <p>The practical consequence for you is that your buyer&rsquo;s diligence is not a formality they can waive because they like your product. Their own examiners will look at how they assessed you. That is why the questions keep coming after you have sent the report, and why &ldquo;we have a SOC 2&rdquo; ends the conversation with a startup buyer and begins it with a bank.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">What the review is actually made of</h2>
+            <p><strong>A questionnaire, usually large.</strong> Often the Shared Assessments SIG, sometimes the institution&rsquo;s own workbook, occasionally both. Hundreds of questions covering areas a SOC 2 report addresses at a summary level and the questionnaire addresses one control at a time.</p>
+            <p><strong>Your SOC 2 report, read properly.</strong> A bank reviewer is one of the few readers who genuinely reads it. They will look at the scope, whether it is Type I or Type II, the observation period, any exceptions in the testing results, the subservice organizations you carved out, and the complementary user entity controls the report says you rely on your own customers to perform.</p>
+            <p><strong>Artifacts by name.</strong> The most recent penetration test, evidence that findings were remediated, your business continuity and disaster recovery plans with evidence of a test, your incident response plan, and proof your access reviews actually run.</p>
+            <p><strong>Contractual terms.</strong> Notification windows after an incident, audit rights, subcontractor approval, data location and return or destruction at termination. These are frequently tighter than anything a regulation imposes on you, and they are negotiated by people who negotiate them constantly.</p>
+            <p><strong>Continuing obligations.</strong> Bank relationships include ongoing monitoring, so the report is not a one time gate. Expect an annual refresh, and expect them to notice if the next report shows a gap in coverage between observation periods.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">What a SOC 2 report settles, and what it does not</h2>
+            <p><strong>It settles</strong> whether an independent CPA firm examined your controls and what they concluded. That is genuinely valuable and it is the single artifact that shortens the review most.</p>
+            <p><strong>It does not settle the questionnaire.</strong> The workbook still arrives. What changes is whether the answers already exist in a form you can send, or whether somebody reconstructs them under deal pressure while the buyer waits. That difference is usually weeks.</p>
+            <p><strong>It does not settle the complementary user entity controls.</strong> This is the one that catches people. Your report lists controls you assume your customers operate. A bank reviewer reads that list and checks whether their own environment covers it. Separately, every vendor report you collect lists controls that vendor assumes you operate, and if nobody has mapped those to your controls, a reviewer who asks the question will find nothing behind it.</p>
+            <p><strong>It does not settle a Type I versus Type II expectation.</strong> Financial services buyers ask for Type II by name more often than any other sector, because operating effectiveness over a period is what their own examiners expect them to have assessed. A Type I is a legitimate first step and a real checkpoint, but going in expecting it to be the destination is how a deal stalls late.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">The order that works</h2>
+            <ol class="list-decimal pl-6 space-y-2">
+                <li><strong>Get the questionnaire answers into a reusable form.</strong> One well maintained answer set, cross referenced to the evidence behind each answer, beats a heroic effort per deal. This is the single highest return piece of work for a company selling into banks.</li>
+                <li><strong>Map every complementary user entity control</strong> from every vendor report you hold to a control on your side, and write down the ones you cannot cover. That map is asked for by name and almost nobody has it.</li>
+                <li><strong>Run the penetration test early enough to remediate.</strong> A recent test with open critical findings is worse than an older test with a clean remediation trail.</li>
+                <li><strong>Read your own contractual notification windows</strong> and confirm your incident plan can meet the shortest one you have signed.</li>
+                <li><strong>Sequence Type I then Type II</strong> deliberately, and tell the buyer the plan rather than letting them discover the report is Type I when they open it.</li>
+            </ol>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">One honest limit</h2>
+            <p>This is about information security diligence, which is what we do. Financial services firms also carry consumer protection and regulatory obligations that have nothing to do with SOC 2 and everything to do with counsel and compliance specialists in your own sector. We do not advise on those and we will say so plainly rather than guess. Where a security control exists to satisfy one of them, we will build the control around the decision your counsel has already made.</p>
+
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">Where we fit</h2>
+            <p>Control and Function runs SOC 2 readiness as a fixed-fee engagement. We are not an audit firm and we do not issue SOC 2 reports: we build the program, prepare the evidence, refer you to a licensed CPA firm, and manage the audit through report issuance. We never assess our own preparation work, and we take nothing from any firm we introduce.</p>
+            <p>If you are somewhere between &ldquo;a buyer just sent us a security review&rdquo; and &ldquo;we need a report by a deadline,&rdquo; a 30-minute call will tell you where you actually stand. <a href="https://calendly.com/controlandfunction/discovery-call" class="text-blue-900 underline font-semibold">Book a readiness call</a> or email <a href="mailto:hello@controlandfunction.com" class="text-blue-900 underline">hello@controlandfunction.com</a>.</p>
+
+            <div class="mt-12 border-t border-slate-200 pt-6">
+                <p class="text-xs font-semibold uppercase tracking-widest text-slate-500">Related</p>
+                <p class="mt-2"><a href="/cuecs.html" class="text-blue-900 underline font-semibold">Complementary User Entity Controls (CUECs) Explained</a><br>
+                <span class="text-slate-600">The artifact bank reviewers ask for by name and almost no vendor has ready.</span></p>
+                <p class="mt-2"><a href="/iso27001.html" class="text-blue-900 underline font-semibold">SOC 2 and ISO 27001: which one your buyers actually require</a><br>
+                <span class="text-slate-600">International and enterprise buyers frequently want the certificate rather than the report.</span></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 py-8 mt-16">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+            <div>&copy; 2026 Control and Function LLC &middot; Denver, Colorado &middot; Not an audit firm &middot; Readiness and advisory only</div>
+            <div class="flex gap-6">
+                <a href="/" class="hover:text-white transition">Home</a>
+                <a href="https://www.linkedin.com/company/controlandfunction" target="_blank" rel="noopener" class="hover:text-white transition">LinkedIn</a>
+                <a href="/privacy.html" class="hover:text-white transition">Privacy</a>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/ask.js" defer></script>
+</body>
+</html>

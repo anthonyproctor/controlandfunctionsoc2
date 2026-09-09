@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC 2 and HIPAA for Healthcare and Health Tech Vendors</title>
+    <meta name="description" content="Selling into hospitals or payers? A SOC 2 report will not answer the three things healthcare buyers check: the BAA, the security risk analysis, and breach notification timing.">
+    <link rel="canonical" href="https://controlandfunction.com/healthcare.html">
+    <meta property="og:title" content="SOC 2 and HIPAA: What Healthcare Buyers Check Beyond the Report">
+    <meta property="og:description" content="Selling into hospitals or payers? A SOC 2 report will not answer the three things healthcare buyers check: the BAA, the security risk analysis, and breach notification timing.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://controlandfunction.com/healthcare.html">
+    <meta property="og:image" content="https://controlandfunction.com/assets/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SOC 2 and HIPAA for Healthcare and Health Tech Vendors">
+    <meta name="twitter:description" content="Selling into hospitals or payers? A SOC 2 report will not answer the three things healthcare buyers check: the BAA, the security risk analysis, and breach notification timing.">
+    <meta name="twitter:image" content="https://controlandfunction.com/assets/og-image.png">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/site.css">
+    <script data-goatcounter="https://controlandfunction.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }</style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does a SOC 2 report make my company HIPAA compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. SOC 2 is a voluntary attestation report issued by a licensed CPA firm against the AICPA Trust Services Criteria. HIPAA is federal law with its own required safeguards. The two overlap heavily on access control, logging, encryption, incident response and vendor management, but a SOC 2 report does not address business associate agreements, the security risk analysis, or breach notification obligations, which are the three things healthcare buyers check specifically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there such a thing as HIPAA certification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. HIPAA has no certification scheme and no government body certifies compliance. An organization can be assessed against the Security Rule safeguards by a third party, and that assessment can be useful evidence for a buyer, but any vendor advertising a HIPAA certification is describing something that does not exist."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Has the HIPAA Security Rule been updated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not yet. The Office for Civil Rights published a proposed rule in January 2025 that would remove the distinction between required and addressable implementation specifications and make encryption, multi-factor authentication, asset inventories and network segmentation explicit. The comment period closed in March 2025 with roughly 4,745 comments and significant industry opposition. No final rule has been issued and the federal regulatory agenda now targets 2027. The existing Security Rule remains in effect."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do healthcare buyers ask for beyond a SOC 2 report?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A signed business associate agreement, evidence of a current security risk analysis scoped to electronic protected health information, and confirmation that your incident response can meet the breach notification timelines in both the regulation and the contract. Contractual notification windows are frequently shorter than the statutory ones."
+      }
+    }
+  ]
+}
+    </script>
+</head>
+<body class="text-slate-900 antialiased">
+    <header class="border-b border-slate-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="/" class="font-bold text-lg tracking-tight">Control and Function</a>
+            <nav class="hidden md:flex space-x-8 text-sm text-slate-600">
+                <a href="/#services" class="hover:text-slate-900">Services</a>
+                <a href="/#frameworks" class="hover:text-slate-900">Frameworks</a>
+                <a href="/#faq" class="hover:text-slate-900">FAQ</a>
+                <a href="/#contact" class="hover:text-slate-900">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-6 py-16">
+        <p class="text-sm font-semibold text-blue-900 mb-3 uppercase tracking-wider">Healthcare &middot; Health Tech Buyers</p>
+        <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">SOC 2 and HIPAA: what healthcare buyers check beyond the report</h1>
+        <p class="text-sm text-slate-500 mb-10">Control and Function &middot; September 2026</p>
+
+        <div class="space-y-6 text-slate-700 leading-relaxed text-lg">
+            <p>Healthcare buyers run a different review from everyone else. A hospital system, a payer, or a digital health platform will ask for your SOC 2 report, and then keep going: a business associate agreement, a security risk analysis, and a questionnaire that assumes you already know which safeguards apply to you. Here is what that review is made of, and how one control program covers both.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">SOC 2 and HIPAA answer different questions</h2>
+            <p><strong>SOC 2</strong> is an attestation report issued by a licensed CPA firm against the AICPA Trust Services Criteria. It answers whether an independent auditor examined your security program and what they concluded. It is voluntary, it is general purpose, and no regulator requires it.</p>
+            <p><strong>HIPAA</strong> is federal law. There is no such thing as being HIPAA certified, and any vendor claiming a HIPAA certification is describing something that does not exist. The Security Rule sets out administrative, physical and technical safeguards for electronic protected health information, and those obligations attach to you the moment you handle that data on a covered entity&rsquo;s behalf.</p>
+            <p>The practical relationship is this: SOC 2 gives you the evidence machinery, and HIPAA tells you which additional obligations that machinery has to satisfy. Most of the work overlaps. Access control, audit logging, encryption, incident response, workforce training and vendor management appear in both. What does not overlap is the part healthcare buyers check hardest.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">The three things a SOC 2 report will not answer for a healthcare buyer</h2>
+            <p><strong>The business associate agreement.</strong> If you create, receive, maintain or transmit protected health information for a covered entity, you are a business associate and a signed agreement is required before the data moves. Your subcontractors who touch that data need agreements too, flowing down the same obligations. A SOC 2 report says nothing about whether those agreements exist, and a buyer&rsquo;s counsel will ask for them by name.</p>
+            <p><strong>The security risk analysis.</strong> The Security Rule requires an accurate and thorough assessment of risks and vulnerabilities to electronic protected health information, kept current. This is the single most cited failure in enforcement actions, and it is a specific deliverable, not a general statement that you take security seriously. SOC 2&rsquo;s risk assessment criteria get you most of the way; naming the analysis and scoping it to protected health information specifically is what closes it.</p>
+            <p><strong>Breach notification timing.</strong> HIPAA&rsquo;s notification obligations run on statutory clocks, and business associate agreements routinely impose tighter contractual ones on top. Your incident response plan has to be able to meet the shortest deadline you have signed up to, and that is usually contractual rather than statutory. Compare the two before an incident, not during one.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">What is actually happening with the Security Rule right now</h2>
+            <p>In January 2025 the Office for Civil Rights published a proposed rule that would substantially rewrite the Security Rule, most notably by removing the distinction between required and addressable implementation specifications, which today lets an organization document why a safeguard is not reasonable and appropriate rather than implementing it. The proposal would also make encryption, multi-factor authentication, asset inventories and network segmentation explicit expectations.</p>
+            <p><strong>It is still a proposal.</strong> The comment period closed in March 2025, roughly 4,745 comments were filed, and more than a hundred hospital systems and provider associations formally asked for withdrawal. The federal regulatory agenda now targets final action in 2027, and that target has already moved once. <strong>The existing Security Rule remains in force in the meantime</strong>, and any article telling you the new rules are in effect is wrong.</p>
+            <p>The useful read is not to build for a proposal that may change. It is to notice that everything in it, encryption, multi-factor authentication, asset inventory, segmentation, is already what a SOC 2 examination and a healthcare buyer&rsquo;s questionnaire ask you about. Build those well and the rule change is an update rather than a project.</p>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">The order that works</h2>
+            <ol class="list-decimal pl-6 space-y-2">
+                <li><strong>Establish where protected health information actually lives.</strong> Every store, every flow, every subcontractor. This is the input to the risk analysis, the business associate agreements, and the SOC 2 system description all at once.</li>
+                <li><strong>Get the agreements in place and flowed down.</strong> Before the buyer asks, and before the data moves.</li>
+                <li><strong>Build one control set.</strong> Map the Trust Services Criteria and the Security Rule safeguards to the same controls, so one access review, one training record and one incident plan serve both.</li>
+                <li><strong>Run the security risk analysis as its own named deliverable</strong>, scoped to protected health information, and keep it current rather than annual by accident.</li>
+                <li><strong>Time the SOC 2 audit against your sales calendar.</strong> Auditor calendars fill months out, so the CPA firm is engaged early rather than when a deal is waiting.</li>
+            </ol>
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">One honest limit</h2>
+            <p>We build the security program and the evidence that a healthcare buyer&rsquo;s review depends on, and we fold Security Rule safeguards into the same control set your SOC 2 runs on. We do not give legal advice, we do not determine your status as a covered entity or business associate, and we do not draft your business associate agreements. Those are questions for your counsel, and a consultant who answers them for you is doing you harm.</p>
+
+
+            <h2 class="text-2xl font-bold text-slate-900 pt-4">Where we fit</h2>
+            <p>Control and Function runs SOC 2 readiness as a fixed-fee engagement. We are not an audit firm and we do not issue SOC 2 reports: we build the program, prepare the evidence, refer you to a licensed CPA firm, and manage the audit through report issuance. We never assess our own preparation work, and we take nothing from any firm we introduce.</p>
+            <p>If you are somewhere between &ldquo;a buyer just sent us a security review&rdquo; and &ldquo;we need a report by a deadline,&rdquo; a 30-minute call will tell you where you actually stand. <a href="https://calendly.com/controlandfunction/discovery-call" class="text-blue-900 underline font-semibold">Book a readiness call</a> or email <a href="mailto:hello@controlandfunction.com" class="text-blue-900 underline">hello@controlandfunction.com</a>.</p>
+
+            <div class="mt-12 border-t border-slate-200 pt-6">
+                <p class="text-xs font-semibold uppercase tracking-widest text-slate-500">Related</p>
+                <p class="mt-2"><a href="/financial-services.html" class="text-blue-900 underline font-semibold">What a bank third party risk review actually asks for</a><br>
+                <span class="text-slate-600">Regulated buyers in every sector run the same shape of review. The financial services version is the heaviest, and it is instructive.</span></p>
+                <p class="mt-2"><a href="/cuecs.html" class="text-blue-900 underline font-semibold">Complementary User Entity Controls (CUECs) Explained</a><br>
+                <span class="text-slate-600">Every vendor SOC 2 report you collect lists controls it assumes you operate. In healthcare those inherited assumptions reach protected health information.</span></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 py-8 mt-16">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+            <div>&copy; 2026 Control and Function LLC &middot; Denver, Colorado &middot; Not an audit firm &middot; Readiness and advisory only</div>
+            <div class="flex gap-6">
+                <a href="/" class="hover:text-white transition">Home</a>
+                <a href="https://www.linkedin.com/company/controlandfunction" target="_blank" rel="noopener" class="hover:text-white transition">LinkedIn</a>
+                <a href="/privacy.html" class="hover:text-white transition">Privacy</a>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/ask.js" defer></script>
+</body>
+</html>
